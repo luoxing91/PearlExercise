@@ -3,8 +3,7 @@
 #include <time.h>
 #include "defs.h"
 
-int main()
-{
+int main(){
 	KNUTH_INIT;
 	srand(time(NULL));
 	KNUTH( 10, MAX,

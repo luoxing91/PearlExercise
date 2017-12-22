@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "defs.h"
 
-int main()
-{
+int main(){
 	char vec[50];
 	set1(5, vec);
 	pr_bin(vec[0]);

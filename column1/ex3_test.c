@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include "defs.h"
 
-int main()
-{
+int main(){
 	int unsorted[MAX];
 	genshuf(CNT, MAX, unsorted);
 
